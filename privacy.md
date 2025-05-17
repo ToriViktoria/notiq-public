@@ -1,3 +1,8 @@
+---
+layout: default
+title: Privacy Policy
+---
+
 # Privacy Policy for Notiq: Private Notes
 
 **Effective Date**: May 17, 2025
