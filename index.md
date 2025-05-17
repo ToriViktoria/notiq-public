@@ -45,10 +45,10 @@ You can find _Notiq_ on the [App Store](#).
 
 ### 📄 Resources
 
-- [Privacy Policy](/privacy)
-- [Terms of Use](/privacy)
-- [Support](/support)
-- [Marketing Info](/marketing)
+- [Privacy Policy](/notiq-public/privacy)
+- [Terms of Use](/notiq-public/privacy)
+- [Support](/notiq-public/support)
+- [Marketing Info](/notiq-public/marketing)
 
 ---
 
