@@ -45,10 +45,10 @@ You can find _Notiq_ on the [App Store](#).
 
 ### 📄 Resources
 
-- [Privacy Policy](https://github.com/ToriViktoria/notiq-public/edit/main/index.md#:~:text=marketing.md-,privacy,-.md)
-- [Terms of Use](/notiq-public/privacy)
-- [Support](/notiq-public/support)
-- [Marketing Info](/notiq-public/marketing)
+- [Privacy Policy](/privacy)
+- [Terms of Use](/terms)
+- [Support](/support)
+- [Marketing Info](/marketing)
 
 ---
 
