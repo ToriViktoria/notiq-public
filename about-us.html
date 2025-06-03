@@ -3,9 +3,147 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Notiq - Secure AI Notes</title>
+     <style>
+    :root {
+      --blue: #4C7EDC;
+      --green: #4CAF88;
+      --text-color: #333;
+      --bg-color: #ffffff;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      line-height: 1.6;
+    }
+          header {
+      padding: 2rem 1rem 1rem;
+      text-align: center;
+    }
+
+    .logo {
+      width: 80px;
+      height: auto;
+      margin-bottom: 1rem;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      color: var(--blue);
+    }
+
+    header p {
+      font-size: 1.1rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .features {
+      max-width: 700px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .feature {
+      margin-bottom: 1.5rem;
+      padding-left: 1.5rem;
+      position: relative;
+    }
+
+    .feature::before {
+      content: "✔";
+      position: absolute;
+      left: 0;
+      top: 0;
+      color: var(--green);
+      font-weight: bold;
+    }
+
+    .cta {
+      text-align: center;
+      margin: 2rem 1rem;
+    }
+
+    .cta a img {
+      width: 180px;
+    }
+
+    .screenshots {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin: 2rem auto;
+      max-width: 900px;
+      padding: 0 1rem;
+    }
+
+    .screenshots img {
+      max-width: 280px;
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      padding: 2rem 1rem;
+      border-top: 1px solid #eee;
+      color: #777;
+    }
+
+    footer a {
+      color: var(--blue);
+      text-decoration: none;
+      margin: 0 0.5rem;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+         </style>
 </head>
 <body>
-    Hello
+    <header>
+    <img src="logo-placeholder.png" alt="Notiq Logo" class="logo" />
+    <h1>Notiq</h1>
+    <p>Your thoughts, privately captured.<br />
+    100% on-device note-taking with voice, text, and AI — fully offline and secure.</p>
+  </header>
+
+  <section class="features">
+    <div class="feature">No account, no tracking, no cloud. All data stays on your iPhone.</div>
+    <div class="feature">AES‑256 encryption for audio, text, and scanned documents.</div>
+    <div class="feature">Record voice notes or meetings — even in the background or offline.</div>
+    <div class="feature">On-device transcription and smart summaries powered by AI.</div>
+    <div class="feature">Search, organize with folders and emojis. Always responsive.</div>
+  </section>
+
+  <div class="cta">
+    <a href="#">
+      <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store">
+    </a>
+  </div>
+
+  <section class="screenshots">
+    <img src="screenshot1-placeholder.png" alt="Notiq screenshot 1" />
+    <img src="screenshot2-placeholder.png" alt="Notiq screenshot 2" />
+    <img src="screenshot3-placeholder.png" alt="Notiq screenshot 3" />
+  </section>
+
+  <footer>
+    <a href="/privacy">Privacy Policy</a> |
+    <a href="/terms">Terms of Use</a> |
+    <a href="/support">Support</a> |
+    <a href="/marketing">Marketing Info</a>
+    <br /><br />
+    Stay private. Stay focused. Stay Notiq.
+  </footer>
 </body>
 </html>
