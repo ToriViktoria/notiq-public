@@ -33,7 +33,7 @@ _Notiq_ is a privacy-focused voice and text note-taking app. Powered by on-devic
 
 - Designed with native iOS technologies
 - Works seamlessly on your iPhone
-- No background tracking, no analytics SDKs
+- No analytics SDKs
 
 ---
 
