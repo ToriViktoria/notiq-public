@@ -23,4 +23,5 @@ By using Notiq: Private Notes, you agree to the following:
 - Updates will be reflected on our GitHub page.
 
 ## Contact
-For any legal inquiries, reach out to: **legal@notiq.app**
+For any legal inquiries, reach out to: **notiq.notes.app@gmail.com**
+
