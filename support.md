@@ -7,7 +7,7 @@ title: Support – Notiq
 
 If you have any questions, technical issues, or feedback about **Notiq**, please contact our support team.
 
-- 📧 Email: [support@notiq.app](mailto:support@notiq.app)
+- 📧 Email: [notiq.notes.app@gmail.com](notiq.notes.app@gmail.com)
 - 📘 FAQ: Coming soon
 
 We usually respond within 24–48 hours.
