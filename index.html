@@ -98,8 +98,8 @@
     }
 
     .features-img1 {
-      width: 200px;
-      height: auto;
+      width:auto;
+      height: 400px;
       position: absolute;
       right: 35%;
       top: 0;
@@ -108,8 +108,8 @@
     }
 
     .features-img2 {
-      width: 200px;
-      height: auto;
+      width:auto;
+      height: 400px;
       position: absolute;
       right: 0;
       top: 0;
@@ -119,7 +119,7 @@
 
     .button {
       width: 200px;
-      height: 40px;
+      height: 46px;
       border-radius: 20px;
       background-color: var(--blue);
       color: #ffffff;
@@ -144,7 +144,9 @@
     .button svg {
       margin-right: 10px;
     }
-
+    .mobile-img {
+      display: none !important;
+    }
     .content-about {
       width: 100%;
       background-color: var(--blue-light);
@@ -218,8 +220,9 @@
 
       .features {
         max-width: calc(100% - 48px);
-        height: min-content;
+        height: max-content;
         margin: 36px 0;
+        flex-direction: column;
       }
 
       .features div {
@@ -236,10 +239,43 @@
       .description {
         max-width: 100%;
       }
-
+      .mobile-img {
+      display: inline-flex !important;
+      align-items: center;
+      margin-bottom: 20px;
+      position: relative;
+      min-height: 346px;
+    }
+    .mobile-img img {
+      width: 160px;
+      height: auto;
+      position: absolute;
+    
+    }
+    .img1 {
+      left: 5%;
+      z-index: 1;
+    }
+    .img2 {
+      left: 45%;
+      transform: rotate(9deg);
+    }
       .img-box {
         display: none !important;
       }
+      .features-img1 {
+        height: 220px;
+        right: 37%;
+        top: -20px;
+      
+      }
+      .features-img2 {
+        height: 220px;
+        right: 23px;
+        top: -20px;
+       
+      }
+
 
       .content-about {
         display: flex;
@@ -320,9 +356,20 @@
       }
 
       .img-box {
-        display: none !important;
+        min-height: 270px;
       }
-
+      .features-img1 {
+        height: 270px;
+        right: 37%;
+        top: -20px;
+      
+      }
+      .features-img2 {
+        height: 270px;
+        right: 23px;
+        top: -20px;
+       
+      }
       .content-about {
         display: flex;
         justify-content: center;
@@ -371,6 +418,10 @@
   <section class="features">
     <div>
       <p class="title">Stay private. Stay focused. Stay Notiq.<br /> </p>
+      <div class="mobile-img">
+        <img class="img1" src="assets/01.png" alt="">
+        <img class="img2" src="assets/02.png" alt="">
+      </div>
       <p class="description">Notiq is a private voice and text notes app with background meeting recording. Built-in AI
         transcribes audio into text and helps you quickly find what you need. All data is securely encrypted and stays
         only on your device.</p>
@@ -382,10 +433,10 @@
         </svg>
         Download</a>
     </div>
-
+   
     <div class="img-box">
-      <img class="features-img1" src="assets/note.png" alt="">
-      <img class="features-img2" src="assets/meeting.png" alt="">
+      <img class="features-img1" src="assets/01.png" alt="">
+      <img class="features-img2" src="assets/02.png" alt="">
     </div>
   </section>
 
