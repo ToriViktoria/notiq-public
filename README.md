@@ -1,5 +1,5 @@
 <p>
-  <img src="assets/logo-full.png" width="120" alt="Notiq Logo" />
+  <img src="assets/logo-full.jpg" width="120" alt="Notiq Logo" />
 </p>
 <!-- # Notiq -->
 
@@ -40,4 +40,4 @@ Capture voice memos, write thoughts, scan documents — or even record entire me
 
 ---
 
-Stay private. Stay focused. Stay Notiq.
+Record. Transcribe. Stay private.
