@@ -1,5 +1,5 @@
 <p>
-  <img src="assets/logo-full.jpg" width="120" alt="Notiq Logo" />
+  <img src="assets/logo-full-cut.jpg" width="120" alt="Notiq Logo" />
 </p>
 <!-- # Notiq -->
 
