@@ -17,7 +17,7 @@ Capture voice memos, write thoughts, scan documents — or even record entire me
 - 🎧 **Meeting Recorder** with background recording
 - 🧠 **On-device AI** for transcription and summarization
 - 🔎 **Full-text Search** across all note types
-- 📂 **Folders & Tags** to organize your thoughts
+- 📂 **Folders** to organize your thoughts
 - 📵 **No accounts. No cloud.**
 
 ## 🔐 100% Private
