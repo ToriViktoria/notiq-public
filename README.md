@@ -1,4 +1,7 @@
-# Notiq
+<p>
+  <img src="assets/logo-full.png" width="120" alt="Notiq Logo" />
+</p>
+<!-- # Notiq -->
 
 **Notiq — Your Private Notebook with Voice Transcription and Speech Recognition. All on device.**
 
@@ -27,7 +30,7 @@ Capture voice memos, write thoughts, scan documents — or even record entire me
 ## 📥 Download
 
 > Notiq is available on the App Store  
-[![App Store]([https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg)]([https://apps.apple.com/app/id6746056277]])
+[![App Store](https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg)](https://apps.apple.com/app/id6746056277)
 
 ## 📄 Resources
 
