@@ -7,7 +7,8 @@
 Notiq is a secure note-taking app that converts your voice and scanned images into text. All powered by a fast neural network running directly on your device.
 Capture voice memos, write thoughts, scan documents — or even record entire meetings in the background. With built-in speech recognition and voice transcription, everything is instantly turned into text, searchable and time-stamped.
 
-<img src="assets/01.png" alt="App Preview" width="50%"/>
+<img src="assets/01.png" alt="App Preview" width="40%"/> 
+
 
 ## ✨ Features
 
