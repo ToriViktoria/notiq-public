@@ -1,12 +1,13 @@
 <p>
   <img src="assets/logo-full-cut.jpg" width="120" alt="Notiq Logo" />
 </p>
-<!-- # Notiq -->
 
 **Notiq — Your Private Notebook with Voice Transcription and Speech Recognition. All on device.**
 
 Notiq is a secure note-taking app that converts your voice and scanned images into text. All powered by a fast neural network running directly on your device.
 Capture voice memos, write thoughts, scan documents — or even record entire meetings in the background. With built-in speech recognition and voice transcription, everything is instantly turned into text, searchable and time-stamped.
+
+![App Preview](assets/01.png)
 
 ## ✨ Features
 
@@ -34,9 +35,16 @@ Capture voice memos, write thoughts, scan documents — or even record entire me
 
 ## 📄 Resources
 
+- [Landing Page](https://toriviktoria.github.io/notiq-public/)
 - [Privacy Policy](https://toriviktoria.github.io/notiq-public/privacy)
 - [Terms of Use](https://toriviktoria.github.io/notiq-public/terms)
 - [Support](https://toriviktoria.github.io/notiq-public/support)
+
+---
+
+## 🧠 Keywords
+
+`voice notes`, `voice memos` `speech recognition`, `note-taking`, `offline notes`, `ai`, `ocr`, `voice transcription`, `secure notes`, `aes256`, `productivity`, `ios`, `swift`, `on-device ai`
 
 ---
 
