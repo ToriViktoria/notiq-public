@@ -4,24 +4,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Notiq — Private Voice & Text Notes App for iPhone</title>
-  <meta name="description" content="Notiq is a private note-taking app for iPhone with AI-powered voice transcription and meeting recording. All data is securely encrypted and stays only on your device." />
-  <meta name="keywords" content="voice memos, voice notes, offline transcription, transcribe, speech recogfnition, speech to text, AI notes app, meeting recorder, note taking" />
+  <title>Notiq — Voice Memos AI</title>
+  <meta name="description"
+    content="Notiq is a private note-taking app for iPhone with AI-powered voice transcription and meeting recording. All data is securely encrypted and stays only on your device." />
+  <meta name="keywords"
+    content="voice memos, voice notes, offline transcription, transcribe, speech recogfnition, speech to text, AI notes app, meeting recorder, note taking" />
   <meta name="author" content="Notiq Team" />
 
   <!-- Open Graph / Facebook -->
-  <meta property="og:title" content="Notiq - Voice Memo AI" />
-  <meta property="og:description" content="Capture and transcribe voice notes and meetings securely — all on your device, no cloud needed." />
+  <meta property="og:title" content="Notiq - Voice Memos AI" />
+  <meta property="og:description"
+    content="Capture and transcribe voice notes and meetings securely — all on your device, no cloud needed." />
   <meta property="og:image" content="https://toriviktoria.github.io/notiq-public/assets/logo.jpg" />
   <meta property="og:url" content="https://toriviktoria.github.io/notiq-public/" />
   <meta property="og:type" content="website" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Notiq — Private Voice & Text Notes App for iPhone" />
-  <meta name="twitter:description" content="Fully private and AI-powered note-taking app. Works offline. Your data stays with you." />
+  <meta name="twitter:title" content="Notiq - Voice Memos AI" />
+  <meta name="twitter:description"
+    content="Private voice memos with offline speech recognition, real-time transcription, and AES‑256 encryption. Your data stays with you." />
   <meta name="twitter:image" content="https://toriviktoria.github.io/notiq-public/assets/logo.jpg" />
-  
+
   <!-- Favicon (если есть) -->
 
   <link rel="icon" href="assets/favicon.ico" type="image/png" />
@@ -46,6 +50,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+
     }
 
     header {
@@ -63,7 +68,7 @@
     .features {
       max-width: 960px;
       width: 100%;
-      height: 480px;
+      height: 500px;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -76,17 +81,17 @@
     }
 
     .title {
-      font-size: 24px;
+      font-size: 32px;
       font-weight: 700;
-      max-width: 350px;
-      line-height: 1.5;
+      line-height: 1.2;
       margin: 0 0 20px 0;
     }
 
     .description {
-      max-width: 400px;
       line-height: 1.5;
       margin: 0;
+      font-size: 18px;
+
     }
 
     .img-box {
@@ -98,7 +103,7 @@
     }
 
     .features-img1 {
-      width:auto;
+      width: auto;
       height: 400px;
       position: absolute;
       right: 35%;
@@ -108,7 +113,7 @@
     }
 
     .features-img2 {
-      width:auto;
+      width: auto;
       height: 400px;
       position: absolute;
       right: 0;
@@ -144,63 +149,85 @@
     .button svg {
       margin-right: 10px;
     }
+
     .mobile-img {
       display: none !important;
     }
+
     .content-about {
       width: 100%;
-      background-color: var(--blue-light);
+      background-color: var(--bg-color);
       display: flex;
-      justify-content: center;
-      padding: 80px 0;
+      flex-direction: column;
+      align-items: center;
+      padding: 80px 0 80px;
     }
-
+    h2 {
+      font-size: 28px;
+    font-weight: 700;
+    max-width: 960px;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 40px;
+    text-align: center;
+    }
     .about-box {
       max-width: 960px;
       width: 100%;
       display: flex;
       justify-content: space-between;
+      flex-wrap: wrap;
     }
 
     .feature {
-      max-width: calc(100% / 5);
+      width: calc(100% / 2 - 10px);
+      background: rgba(214, 228, 255, 0.6);
+      min-height: 130px;
+      margin: 0 0 20px 0;
+      padding: 20px 26px;
+      border-radius: 20px;
+      display: flex;
+      box-sizing: border-box;
     }
 
     .feature div {
       width: 100%;
       display: flex;
-      flex-direction: column;
       align-items: center;
+      justify-content: flex-start;
     }
 
     .feature svg {
-      height: 50px;
-      width: auto;
+      height: 52px;
+      width: 52px;
     }
 
     .feature p {
-      margin: 24px 20px 0;
-      text-align: center;
+      margin: 0 0 0 20px;
+      text-align: left;
+      font-size: 16px;
+      
 
     }
 
     footer {
       text-align: center;
       font-size: 0.9rem;
-      padding: 2rem 1rem;
+      padding: 3rem 1rem;
       color: #6B7280;
-    
+
     }
 
     footer a {
-      color: var(--blue);
+      color: var(--text-color);
       text-decoration: none;
       margin: 0 0.5rem;
-    
+
     }
 
     footer a:hover {
-      text-decoration: underline;
+      color: var(--blue);
+      
     }
 
     .cta {
@@ -230,7 +257,7 @@
       }
 
       .title {
-        font-size: 24px;
+        font-size: 28px;
         max-width: 100%;
         margin: 0 0 20px 0;
 
@@ -239,50 +266,60 @@
       .description {
         max-width: 100%;
       }
+
       .mobile-img {
-      display: inline-flex !important;
-      align-items: center;
-      margin-bottom: 20px;
-      position: relative;
-      min-height: 346px;
-    }
-    .mobile-img img {
-      width: 160px;
-      height: auto;
-      position: absolute;
-    
-    }
-    .img1 {
-      left: 5%;
-      z-index: 1;
-    }
-    .img2 {
-      left: 45%;
-      transform: rotate(9deg);
-    }
+        display: inline-flex !important;
+        align-items: center;
+        margin-bottom: 20px;
+        position: relative;
+        min-height: 346px;
+      }
+
+      .mobile-img img {
+        width: 160px;
+        height: auto;
+        position: absolute;
+
+      }
+
+      .img1 {
+        left: 5%;
+        z-index: 1;
+      }
+
+      .img2 {
+        left: 45%;
+        transform: rotate(9deg);
+      }
+
       .img-box {
         display: none !important;
       }
+
       .features-img1 {
         height: 220px;
         right: 37%;
         top: -20px;
-      
+
       }
+
       .features-img2 {
         height: 220px;
         right: 23px;
         top: -20px;
-       
+
       }
 
 
       .content-about {
         display: flex;
         justify-content: center;
-        padding: 40px 0;
+        padding: 0;
       }
-
+      h2 {
+        max-width: calc(100% - 48px);
+        font-size: 24px;
+      }
       .about-box {
         max-width: calc(100% - 48px);
         flex-direction: column;
@@ -294,6 +331,7 @@
         width: 100%;
         display: flex;
         margin-bottom: 18px;
+        padding: 16px;
       }
 
       .feature:last-child {
@@ -301,18 +339,17 @@
       }
 
       .feature div {
-        background-color: #ffffff;
-        border-radius: 20px;
-        padding: 24px 20px;
+      
       }
 
       .feature svg {
         height: 40px;
+        width: 40px;
       }
 
       .feature p {
-        margin-top: 18px;
-        max-width: 220px;
+        max-width: calc(100% - 56px);
+        margin: 0 0 0 16px;
       }
 
       footer {
@@ -345,7 +382,6 @@
       }
 
       .title {
-        font-size: 24px;
         max-width: 100%;
         margin: 0 0 20px 0;
 
@@ -358,18 +394,21 @@
       .img-box {
         min-height: 270px;
       }
+
       .features-img1 {
         height: 270px;
         right: 37%;
         top: -20px;
-      
+
       }
+
       .features-img2 {
         height: 270px;
         right: 23px;
         top: -20px;
-       
+
       }
+
       .content-about {
         display: flex;
         justify-content: center;
@@ -378,12 +417,13 @@
 
       .about-box {
         max-width: calc(100% - 68px);
-        flex-wrap: wrap;
       }
 
       .feature {
         max-width: calc(100% / 2 - 18px);
         width: 100%;
+        min-height: 148px;
+        max-height: 148px;
         display: flex;
         margin-bottom: 18px;
       }
@@ -392,19 +432,15 @@
         margin-bottom: 0;
       }
 
-      .feature div {
-        background-color: #ffffff;
-        border-radius: 20px;
-        padding: 24px 20px;
-      }
+     
 
       .feature svg {
         height: 40px;
+        width: 40px;
       }
 
       .feature p {
-        margin-top: 18px;
-        max-width: 220px;
+        max-width: calc(100% - 60px);
       }
     }
   </style>
@@ -417,7 +453,7 @@
 
   <section class="features">
     <div>
-      <p class="title">Stay private. Stay focused. Stay Notiq.<br /> </p>
+      <p class="title">Voice Memos with Smart Transcription <br /> </p>
       <div class="mobile-img">
         <img class="img1" src="assets/01.png" alt="">
         <img class="img2" src="assets/02.png" alt="">
@@ -433,7 +469,7 @@
         </svg>
         Download</a>
     </div>
-   
+
     <div class="img-box">
       <img class="features-img1" src="assets/01.png" alt="">
       <img class="features-img2" src="assets/02.png" alt="">
@@ -441,7 +477,18 @@
   </section>
 
   <section class="content-about">
-    <div class="about-box">
+    <h2>Minimal by design, complete by function.</h2>
+    <div class="about-box">   
+      <div class="feature">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" height="32" width="54"
+            viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+            <path fill="#3a66b5"
+              d="M64 80c-8.8 0-16 7.2-16 16l0 320c0 8.8 7.2 16 16 16l224 0 0-80c0-17.7 14.3-32 32-32l80 0 0-224c0-8.8-7.2-16-16-16L64 80zM288 480L64 480c-35.3 0-64-28.7-64-64L0 96C0 60.7 28.7 32 64 32l320 0c35.3 0 64 28.7 64 64l0 224 0 5.5c0 17-6.7 33.3-18.7 45.3l-90.5 90.5c-12 12-28.3 18.7-45.3 18.7l-5.5 0z" />
+          </svg>
+          <p>Add text notes or scan documents with built-in OCR — stored offline and fully private.</p>
+        </div>
+      </div>
       <div class="feature">
         <div>
           <svg xmlns="http://www.w3.org/2000/svg"
