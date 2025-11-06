@@ -1,38 +1,61 @@
-<p>
-  <img src="assets/logo-full-cut.jpg" width="120" alt="Notiq Logo" />
+<p align="center">
+  <img src="assets/logo-horizontal-x1.jpg" width="120" alt="Notiq Logo" />
 </p>
 
-**Notiq — Your Private Notebook with Voice Transcription and Speech Recognition. All on device.**
+**Notiq — Smart Voice Notes with Offline AI and Total Privacy**
 
-Notiq is a secure note-taking app that converts your voice and scanned images into text. All powered by a fast neural network running directly on your device.
-Capture voice memos, write thoughts, scan documents — or even record entire meetings in the background. With built-in speech recognition and voice transcription, everything is instantly turned into text, searchable and time-stamped.
+Notiq is your intelligent voice notebook — designed for people who value privacy, clarity, and focus.  
+It transforms spoken words into organized notes and to-do lists with the help of on-device AI, without ever connecting to the cloud.
 
-<img src="assets/01.png" alt="App Preview" width="40%"/> 
+Everything in Notiq happens locally on your iPhone: speech recognition, transcription, and note creation.  
+You can record ideas, meetings, and thoughts anywhere — even without an internet connection.  
+Each note is instantly transcribed into text, structured automatically, and stored with AES-256 encryption for maximum protection.
 
+Unlike typical voice recorders or online transcription tools, Notiq never uploads or shares your data.  
+It’s a productivity tool built entirely around privacy — smart, elegant, and secure by design.
+
+<img src="assets/1_1.png" alt="App Preview" width="40%"/> 
+
+---
 
 ## ✨ Features
 
-- 🎙️ **Voice Memos** with offline transcription (speech recognition)
-- 📝 **Text Notes** with smart organization
-- 📷 **Scan Text** using OCR (Optical Character Recognition)
-- 🔐 **AES‑256 Encryption** for all your notes
-- 🎧 **Meeting Recorder** with background recording
-- 🧠 **On-device AI** for transcription and summarization
-- 🔎 **Full-text Search** across all note types
-- 📂 **Folders** to organize your thoughts
-- 📵 **No accounts. No cloud.**
+- 🎙️ **Voice Notes** — record and transcribe offline in real time  
+- 📅 **Meeting Recorder** — capture long sessions with background mode and time-stamps  
+- ✅ **Smart Voice To-Dos** — create task lists simply by speaking  
+- 🧠 **On-Device AI** — all recognition and processing happen locally  
+- 🔐 **AES-256 Encryption** — advanced, bank-level security for every note  
+- 🌍 **Multilingual Speech Recognition** — English, Spanish, German, French, and more  
+- 📂 **Folders** — organize recordings and tasks by project or topic  
+- 📵 **No Cloud, No Account** — your notes stay yours, always offline  
 
-## 🔐 100% Private
+---
 
-- No user account required  
-- Works fully offline for all core features  
-- No data ever leaves your device  
-- Your data, your control  
+## 🔐 Privacy by Design
+
+Privacy isn’t a feature — it’s the foundation.  
+Notiq never sends audio or text to external servers.  
+All AI models run directly on your device, and all data is encrypted using AES-256 before storage.  
+You don’t need an account, and nothing is ever synced or backed up online.  
+
+Your voice, your notes, your control.  
+
+---
+
+## 🧩 Technology
+
+Built natively for iOS with **SwiftUI** and **on-device AI frameworks**.  
+Notiq uses optimized neural speech recognition for fast, accurate offline transcription, even during long recordings.  
+Every operation — from recognizing speech to creating structured to-dos — runs locally, so performance remains fast and private.  
+
+---
 
 ## 📥 Download
 
 > Notiq is available on the App Store  
 [![App Store](https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg)](https://apps.apple.com/app/id6746056277)
+
+---
 
 ## 📄 Resources
 
@@ -45,8 +68,10 @@ Capture voice memos, write thoughts, scan documents — or even record entire me
 
 ## 🧠 Keywords
 
-`voice notes`, `voice memos` `speech recognition`, `note-taking`, `offline notes`, `ai`, `ocr`, `voice transcription`, `secure notes`, `aes256`, `productivity`, `ios`, `swift`, `on-device ai`
+`voice notes`, `voice memos`, `voice to-dos`, `speech recognition`,  
+`offline transcription`, `ai note taker`, `secure notes`,  
+`aes256`, `on-device ai`, `private recorder`, `productivity`, `ios`, `swift`
 
 ---
 
-Record. Transcribe. Stay private.
+Smart. Private. Voice-Powered.

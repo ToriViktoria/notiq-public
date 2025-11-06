@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Notiq — Voice Memos AI</title>
+  <title>Notiq — AI Note Taker</title>
   <meta name="description"
     content="Notiq is a private note-taking app for iPhone with AI-powered voice transcription and meeting recording. All data is securely encrypted and stays only on your device." />
   <meta name="keywords"
@@ -12,7 +12,7 @@
   <meta name="author" content="Notiq Team" />
 
   <!-- Open Graph / Facebook -->
-  <meta property="og:title" content="Notiq - Voice Memos AI" />
+  <meta property="og:title" content="Notiq - AI Note Taker" />
   <meta property="og:description"
     content="Capture and transcribe voice notes and meetings securely — all on your device, no cloud needed." />
   <meta property="og:image" content="https://toriviktoria.github.io/notiq-public/assets/logo.jpg" />
@@ -21,14 +21,22 @@
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Notiq - Voice Memos AI" />
+  <meta name="twitter:title" content="Notiq - AI Note Taker" />
   <meta name="twitter:description"
     content="Private voice memos with offline speech recognition, real-time transcription, and AES‑256 encryption. Your data stays with you." />
   <meta name="twitter:image" content="https://toriviktoria.github.io/notiq-public/assets/logo.jpg" />
 
-  <!-- Favicon (если есть) -->
-
+  <!-- Favicon -->
   <link rel="icon" href="assets/favicon.ico" type="image/png" />
+
+  <!-- PNG на всякий случай -->
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap" rel="stylesheet">
+
   <style>
     :root {
       --blue: #4C7EDC;
@@ -37,15 +45,20 @@
       --green: #4CAF88;
       --text-color: #1F2937;
       --bg-color: #ffffff;
+      --purple-40: #7234DC;
+      --purple-50: #8C53F7;
+      --purple-90: #EADDFF;
+      --purple-95: #F7EDFF;
     }
 
     body {
       margin: 0;
       padding: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-family: "Sen", sans-serif;
+      font-weight: 500;
+      font-style: normal;
       background-color: var(--bg-color);
       color: var(--text-color);
-      line-height: 1.6;
       width: 100%;
       display: flex;
       flex-direction: column;
@@ -126,7 +139,7 @@
       width: 200px;
       height: 46px;
       border-radius: 20px;
-      background-color: var(--blue);
+      background-color: var(--purple-50);
       color: #ffffff;
       display: flex;
       align-items: center;
@@ -139,7 +152,7 @@
     }
 
     .button:hover {
-      background-color: var(--blue-dark);
+      background-color: var(--purple-40);
       transition: all 0.5s ease;
       box-shadow: 4px 11px 89px -10px rgba(58, 102, 181, 0.43);
       -webkit-box-shadow: 4px 11px 89px -10px rgba(58, 102, 181, 0.43);
@@ -181,7 +194,7 @@
 
     .feature {
       width: calc(100% / 2 - 10px);
-      background: rgba(214, 228, 255, 0.6);
+      background:  var(--purple-90);
       min-height: 130px;
       margin: 0 0 20px 0;
       padding: 20px 26px;
@@ -448,7 +461,7 @@
 
 <body>
   <header>
-    <img src="assets/logo-full-cut.jpg" alt="Notiq Logo" class="logo" />
+    <img src="assets/logo-horizontal-x1.jpg" alt="Notiq Logo" class="logo" />
   </header>
 
   <section class="features">
@@ -483,7 +496,7 @@
         <div>
           <svg xmlns="http://www.w3.org/2000/svg" height="32" width="54"
             viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-            <path fill="#3a66b5"
+            <path fill="#7234DC"
               d="M64 80c-8.8 0-16 7.2-16 16l0 320c0 8.8 7.2 16 16 16l224 0 0-80c0-17.7 14.3-32 32-32l80 0 0-224c0-8.8-7.2-16-16-16L64 80zM288 480L64 480c-35.3 0-64-28.7-64-64L0 96C0 60.7 28.7 32 64 32l320 0c35.3 0 64 28.7 64 64l0 224 0 5.5c0 17-6.7 33.3-18.7 45.3l-90.5 90.5c-12 12-28.3 18.7-45.3 18.7l-5.5 0z" />
           </svg>
           <p>Add text notes or scan documents with built-in OCR — stored offline and fully private.</p>
@@ -493,7 +506,7 @@
         <div>
           <svg xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 384 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-            <path fill="#3A66B5"
+            <path fill="#7234DC"
               d="M192 0C139 0 96 43 96 96l0 160c0 53 43 96 96 96s96-43 96-96l0-160c0-53-43-96-96-96zM64 216c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 40c0 89.1 66.2 162.7 152 174.4l0 33.6-48 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l72 0 72 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-48 0 0-33.6c85.8-11.7 152-85.3 152-174.4l0-40c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 40c0 70.7-57.3 128-128 128s-128-57.3-128-128l0-40z" />
           </svg>
           <p>Record voice notes or meetings — even in the background and offline.</p>
@@ -503,7 +516,7 @@
         <div>
           <svg xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-            <path fill="#3A66B5"
+            <path fill="#7234DC"
               d="M88.7 223.8L0 375.8 0 96C0 60.7 28.7 32 64 32l117.5 0c17 0 33.3 6.7 45.3 18.7l26.5 26.5c12 12 28.3 18.7 45.3 18.7L416 96c35.3 0 64 28.7 64 64l0 32-336 0c-22.8 0-43.8 12.1-55.3 31.8zm27.6 16.1C122.1 230 132.6 224 144 224l400 0c11.5 0 22 6.1 27.7 16.1s5.7 22.2-.1 32.1l-112 192C453.9 474 443.4 480 432 480L32 480c-11.5 0-22-6.1-27.7-16.1s-5.7-22.2 .1-32.1l112-192z" />
           </svg>
           <p>Search, organize with folders. Always responsive.</p>
@@ -513,7 +526,7 @@
         <div>
           <svg xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-            <path fill="#3A66B5"
+            <path fill="#7234DC"
               d="M248 106.6c18.9-9 32-28.3 32-50.6c0-30.9-25.1-56-56-56s-56 25.1-56 56c0 22.3 13.1 41.6 32 50.6l0 98.8c-2.8 1.3-5.5 2.9-8 4.7l-80.1-45.8c1.6-20.8-8.6-41.6-27.9-52.8C57.2 96 23 105.2 7.5 132S1.2 193 28 208.5c1.3 .8 2.6 1.5 4 2.1l0 90.8c-1.3 .6-2.7 1.3-4 2.1C1.2 319-8 353.2 7.5 380S57.2 416 84 400.5c19.3-11.1 29.4-32 27.8-52.8l50.5-28.9c-11.5-11.2-19.9-25.6-23.8-41.7L88 306.1c-2.6-1.8-5.2-3.3-8-4.7l0-90.8c2.8-1.3 5.5-2.9 8-4.7l80.1 45.8c-.1 1.4-.2 2.8-.2 4.3c0 22.3 13.1 41.6 32 50.6l0 98.8c-18.9 9-32 28.3-32 50.6c0 30.9 25.1 56 56 56s56-25.1 56-56c0-22.3-13.1-41.6-32-50.6l0-98.8c2.8-1.3 5.5-2.9 8-4.7l80.1 45.8c-1.6 20.8 8.6 41.6 27.8 52.8c26.8 15.5 61 6.3 76.5-20.5s6.3-61-20.5-76.5c-1.3-.8-2.7-1.5-4-2.1l0-90.8c1.4-.6 2.7-1.3 4-2.1c26.8-15.5 36-49.7 20.5-76.5S390.8 96 364 111.5c-19.3 11.1-29.4 32-27.8 52.8l-50.6 28.9c11.5 11.2 19.9 25.6 23.8 41.7L360 205.9c2.6 1.8 5.2 3.3 8 4.7l0 90.8c-2.8 1.3-5.5 2.9-8 4.6l-80.1-45.8c.1-1.4 .2-2.8 .2-4.3c0-22.3-13.1-41.6-32-50.6l0-98.8z" />
           </svg>
           <p>On-device transcription powered by AI.</p>
@@ -523,7 +536,7 @@
         <div>
           <svg xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 640 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-            <path fill="#3A66B5"
+            <path fill="#7234DC"
               d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L525.6 386.7c39.6-40.6 66.4-86.1 79.9-118.4c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C465.5 68.8 400.8 32 320 32c-68.2 0-125 26.3-169.3 60.8L38.8 5.1zM223.1 149.5C248.6 126.2 282.7 112 320 112c79.5 0 144 64.5 144 144c0 24.9-6.3 48.3-17.4 68.7L408 294.5c8.4-19.3 10.6-41.4 4.8-63.3c-11.1-41.5-47.8-69.4-88.6-71.1c-5.8-.2-9.2 6.1-7.4 11.7c2.1 6.4 3.3 13.2 3.3 20.3c0 10.2-2.4 19.8-6.6 28.3l-90.3-70.8zM373 389.9c-16.4 6.5-34.3 10.1-53 10.1c-79.5 0-144-64.5-144-144c0-6.9 .5-13.6 1.4-20.2L83.1 161.5C60.3 191.2 44 220.8 34.5 243.7c-3.3 7.9-3.3 16.7 0 24.6c14.9 35.7 46.2 87.7 93 131.1C174.5 443.2 239.2 480 320 480c47.8 0 89.9-12.9 126.2-32.5L373 389.9z" />
           </svg>
           <p>No account, no cloud. All data stays on your iPhone.</p>
@@ -533,7 +546,7 @@
         <div>
           <svg xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-            <path fill="#3A66B5"
+            <path fill="#7234DC"
               d="M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 47-92.8 37.1c-21.3 8.5-35.2 29.1-35.2 52c0 56.6 18.9 148 94.2 208.3c-9 4.8-19.3 7.6-30.2 7.6L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zm39.1 97.7c5.7-2.3 12.1-2.3 17.8 0l120 48C570 277.4 576 286.2 576 296c0 63.3-25.9 168.8-134.8 214.2c-5.9 2.5-12.6 2.5-18.5 0C313.9 464.8 288 359.3 288 296c0-9.8 6-18.6 15.1-22.3l120-48zM527.4 312L432 273.8l0 187.8c68.2-33 91.5-99 95.4-149.7z" />
           </svg>
           <p>AES‑256 encryption for audio, text, and scanned documents.</p>
