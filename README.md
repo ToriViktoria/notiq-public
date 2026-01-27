@@ -59,7 +59,7 @@ Every operation — from recognizing speech to creating structured to-dos — ru
 
 ## 📄 Resources
 
-- [Landing Page](https://toriviktoria.github.io/notiq-public/)
+- [Landing Page](https://notiq-ai.app/)
 - [Privacy Policy](https://toriviktoria.github.io/notiq-public/privacy)
 - [Terms of Use](https://toriviktoria.github.io/notiq-public/terms)
 - [Support](https://toriviktoria.github.io/notiq-public/support)
@@ -68,8 +68,8 @@ Every operation — from recognizing speech to creating structured to-dos — ru
 
 ## 🧠 Keywords
 
-`voice notes`, `voice memos`, `voice to-dos`, `speech recognition`,  
-`offline transcription`, `ai note taker`, `secure notes`,  
+`voice notes`, `voice memos`, `voice to-dos`, `speech recognition`, `voice recorder`
+`offline transcription`, `ai note taker`, `secure voice notes`,  
 `aes256`, `on-device ai`, `private recorder`, `productivity`, `ios`, `swift`
 
 ---
