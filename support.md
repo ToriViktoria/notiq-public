@@ -25,7 +25,7 @@ We usually respond within **24–48 hours**.
 ---
 
 ### Help & Resources
-- 📘 [FAQ]: (https://toriviktoria.github.io/notiq-public/faq)
+- 📘 [FAQ](https://toriviktoria.github.io/notiq-public/faq)
 - 🔐 [Privacy Policy](https://toriviktoria.github.io/notiq-public/privacy)
 - 📄 [Terms of Use](https://toriviktoria.github.io/notiq-public/terms)
 

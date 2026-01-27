@@ -62,6 +62,7 @@ Every operation — from recognizing speech to creating structured to-dos — ru
 - [Landing Page](https://notiq-ai.app/)
 - [Privacy Policy](https://toriviktoria.github.io/notiq-public/privacy)
 - [Terms of Use](https://toriviktoria.github.io/notiq-public/terms)
+- [FAQ](https://toriviktoria.github.io/notiq-public/faq)
 - [Support](https://toriviktoria.github.io/notiq-public/support)
 
 ---
